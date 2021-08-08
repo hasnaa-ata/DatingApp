@@ -10,7 +10,7 @@ using Microsoft.Extensions.Logging;
 namespace DatingApp.API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]  //GET http://localhost:5001/weatherforecast
+    [Route("api/[controller]")]  //GET http://localhost:5001/weatherforecast
     public class ValuesController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
